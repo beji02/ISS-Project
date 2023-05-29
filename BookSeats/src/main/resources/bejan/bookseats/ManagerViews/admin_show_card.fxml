@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="128.0" prefWidth="431.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bejan.bookseats.Controller.ManagerControllers.AdminShowCardController">
+   <children>
+      <Label fx:id="lTitle" layoutX="14.0" layoutY="14.0" prefHeight="27.0" prefWidth="179.0" text="Show title">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lPrice" layoutX="14.0" layoutY="45.0" prefHeight="18.0" prefWidth="179.0" text="Price: 10 lei" />
+      <Label fx:id="lDate" layoutX="14.0" layoutY="64.0" prefHeight="18.0" prefWidth="179.0" text="Date:" />
+      <Label fx:id="lLocation" layoutX="16.0" layoutY="100.0" text="Location: " />
+      <Label fx:id="lTime" layoutX="14.0" layoutY="82.0" prefHeight="18.0" prefWidth="179.0" text="Time:" />
+      <Button fx:id="bUpdate" layoutX="301.0" layoutY="87.0" mnemonicParsing="false" text="Update" />
+      <Button fx:id="bDelete" layoutX="365.0" layoutY="87.0" mnemonicParsing="false" text="Delete" />
+   </children>
+</AnchorPane>

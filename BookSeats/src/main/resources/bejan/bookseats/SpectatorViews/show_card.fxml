@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="121.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bejan.bookseats.Controller.SpectatorControllers.ShowCardController">
+   <children>
+      <Label fx:id="lTitle" layoutX="13.0" layoutY="14.0" text="Title">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lDescription" layoutX="13.0" layoutY="41.0" prefHeight="38.0" prefWidth="222.0" text="Description" />
+      <Label fx:id="lDateTime" layoutX="135.0" layoutY="87.0" prefHeight="18.0" prefWidth="174.0" text="Date" />
+      <Label fx:id="lSeats" layoutX="310.0" layoutY="87.0" prefHeight="18.0" prefWidth="84.0" text="Seats" />
+   </children>
+</AnchorPane>
